@@ -1,0 +1,147 @@
+body {
+  
+  background-color: #0c1014;
+  color: white;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.main-title {
+  
+  font-size: 62px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 46px 0;
+
+}
+
+.header__logo {
+  font-size: 45px;
+  font-family: monospace;
+  text-align: left;
+  letter-spacing: 2px;
+
+}
+
+.header {
+  
+  display: flex;
+  background-color: #05080a;
+  padding: 16px;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+.header__logo {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  
+}
+
+.header__nav-home {
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  display:flex;
+  list-style: none;
+  gap: 16px;
+
+}
+
+.header__nav-home a {
+  
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 6px;
+
+}
+.header__nav a:hover {
+  text-decoration: underline;
+}
+a.header__nav--active  {
+    background-color: #cbe300;
+    color: #0c1014;
+    pointer-events: none;
+}
+
+.pricing{
+  display: flex;
+  gap: 16px;
+}
+.pricing-plan{
+  flex: 1;
+  background-color: #1f262c;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 5px 10px 12px 0 rgba(71, 2, 71, 0.382);
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-plan__title {
+  
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(172, 4, 172, 0.382) ;
+  margin-top: 0;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
+.pricing-plan p {
+  margin-top: 0px;
+}
+
+.pricing-plan__price {
+  font-size: 30px;
+}
+
+.pricing-plan__features {
+  margin: 0 0 35px 0;
+  color: #b5b5b5;
+  padding-left: 16px;
+  line-height: 1.8;
+  flex-grow: 1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.pricing-plan__button {
+  text-decoration: none;
+  color: #0c1014;
+  background-color: #cbe300 ;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 16px 16px 10px 10px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.pricing-plan__features li::marker {
+  color:#cbe300;
+
+}
+
+.pricing-plan__button:hover {
+  outline: 2px solid #cbe300;
+  background-color: transparent;
+  color: white;
+   }
+
+   footer {
+   
+    text-align: center;
+    font-size: 8px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 200px;
+    max-height: 200px;
+    
+   }
